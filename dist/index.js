@@ -1,7 +1,7 @@
 'use strict';
 
 exports.__esModule = true;
-exports.WebBrowser = exports.LocalAuthentication = exports.Localization = exports.Util = exports.Notifications = exports.Permissions = exports.Constants = exports.Zocial = exports.SimpleLineIcons = exports.Octicons = exports.MaterialCommunityIcons = exports.MaterialIcons = exports.Foundation = exports.FontAwesome = exports.Feather = exports.EvilIcons = exports.Entypo = exports.Ionicons = exports.Font = exports.Asset = exports.AppLoading = exports.DeviceInfo = exports.DangerZone = undefined;
+exports.WebBrowser = exports.LocalAuthentication = exports.Localization = exports.Notifications = exports.Permissions = exports.Constants = exports.Zocial = exports.SimpleLineIcons = exports.Octicons = exports.MaterialCommunityIcons = exports.MaterialIcons = exports.Foundation = exports.FontAwesome = exports.Feather = exports.EvilIcons = exports.Entypo = exports.Ionicons = exports.Font = exports.Asset = exports.AppLoading = exports.DeviceInfo = exports.DangerZone = undefined;
 
 var _DangerZone = require('./exports/DangerZone');
 
@@ -79,10 +79,6 @@ var _Notifications = require('./exports/Notifications');
 
 var _Notifications2 = _interopRequireDefault(_Notifications);
 
-var _Util = require('./exports/Util');
-
-var _Util2 = _interopRequireDefault(_Util);
-
 var _Localization = require('./exports/Localization');
 
 var _Localization2 = _interopRequireDefault(_Localization);
@@ -97,6 +93,7 @@ var _WebBrowser2 = _interopRequireDefault(_WebBrowser);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// components
 exports.DangerZone = _DangerZone2.default;
 exports.DeviceInfo = _DeviceInfo2.default;
 exports.AppLoading = _AppLoading2.default;
@@ -116,7 +113,7 @@ exports.Zocial = _Zocial2.default;
 exports.Constants = _Constants2.default;
 exports.Permissions = _Permissions2.default;
 exports.Notifications = _Notifications2.default;
-exports.Util = _Util2.default;
 exports.Localization = _Localization2.default;
 exports.LocalAuthentication = _LocalAuthentication2.default;
-exports.WebBrowser = _WebBrowser2.default; // components
+exports.WebBrowser = _WebBrowser2.default;
+// import Util from './exports/Util';
