@@ -116,4 +116,3 @@ exports.Notifications = _Notifications2.default;
 exports.Localization = _Localization2.default;
 exports.LocalAuthentication = _LocalAuthentication2.default;
 exports.WebBrowser = _WebBrowser2.default;
-// import Util from './exports/Util';
