@@ -1,7 +1,7 @@
 'use strict';
 
 exports.__esModule = true;
-exports.WebBrowser = exports.LocalAuthentication = exports.Localization = exports.Notifications = exports.Permissions = exports.Constants = exports.Zocial = exports.SimpleLineIcons = exports.Octicons = exports.MaterialCommunityIcons = exports.MaterialIcons = exports.Foundation = exports.FontAwesome = exports.Feather = exports.EvilIcons = exports.Entypo = exports.Ionicons = exports.Font = exports.Asset = exports.AppLoading = exports.DeviceInfo = exports.DangerZone = undefined;
+exports.KeepAwake = exports.WebBrowser = exports.LocalAuthentication = exports.Localization = exports.Notifications = exports.Permissions = exports.Constants = exports.Zocial = exports.SimpleLineIcons = exports.Octicons = exports.MaterialCommunityIcons = exports.MaterialIcons = exports.Foundation = exports.FontAwesome = exports.Feather = exports.EvilIcons = exports.Entypo = exports.Ionicons = exports.Font = exports.Asset = exports.AppLoading = exports.DeviceInfo = exports.DangerZone = undefined;
 
 var _DangerZone = require('./exports/DangerZone');
 
@@ -91,9 +91,13 @@ var _WebBrowser = require('./exports/WebBrowser');
 
 var _WebBrowser2 = _interopRequireDefault(_WebBrowser);
 
+var _KeepAwake = require('./exports/KeepAwake');
+
+var _KeepAwake2 = _interopRequireDefault(_KeepAwake);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// components
+// import Util from './exports/Util';
 exports.DangerZone = _DangerZone2.default;
 exports.DeviceInfo = _DeviceInfo2.default;
 exports.AppLoading = _AppLoading2.default;
@@ -116,3 +120,4 @@ exports.Notifications = _Notifications2.default;
 exports.Localization = _Localization2.default;
 exports.LocalAuthentication = _LocalAuthentication2.default;
 exports.WebBrowser = _WebBrowser2.default;
+exports.KeepAwake = _KeepAwake2.default; // components

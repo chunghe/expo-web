@@ -22,6 +22,7 @@ import Notifications from './exports/Notifications';
 import Localization from './exports/Localization';
 import LocalAuthentication from './exports/LocalAuthentication';
 import WebBrowser from './exports/WebBrowser';
+import KeepAwake from './exports/KeepAwake';
 
 export {
   DangerZone,
@@ -46,5 +47,6 @@ export {
   // Util,
   Localization,
   LocalAuthentication,
-  WebBrowser
+  WebBrowser,
+  KeepAwake,
 };
