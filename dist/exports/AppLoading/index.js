@@ -28,17 +28,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = require('prop-types');
 
-var _reactNative = require('react-native');
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styles = _reactNative.StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-});
 
 var AppLoading = function (_React$Component) {
   (0, _inherits3.default)(AppLoading, _React$Component);
@@ -135,15 +125,7 @@ var AppLoading = function (_React$Component) {
   };
 
   AppLoading.prototype.render = function render() {
-    return _react2.default.createElement(
-      _reactNative.View,
-      { style: styles.container },
-      _react2.default.createElement(
-        _reactNative.Text,
-        null,
-        'Loading...'
-      )
-    );
+    return null;
   };
 
   return AppLoading;
